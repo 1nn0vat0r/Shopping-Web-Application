@@ -1,5 +1,6 @@
 import React from 'react'
-import { Icon, Col, Card, Row, Carousel } from 'antd';
+import { Col, Card, Row, Carousel } from 'antd';
+import Icon from '@antd-design/icons'
 
 function ImageSlider(props) {
     return (
