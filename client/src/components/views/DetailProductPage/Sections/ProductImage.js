@@ -12,8 +12,8 @@ function ProductImage(props) {
 
             props.detail.images.map(item => {
                 images.push({
-                    original: `https://5000-1nn0vat0r-shoppingmallm-odfhz1hjjkv.ws-us54.gitpod.io/${item}`,
-                    thumbnail: `https://5000-1nn0vat0r-shoppingmallm-odfhz1hjjkv.ws-us54.gitpod.io/${item}`
+                    original: `https://shopping-mall-mern-website.herokuapp.com/${item}`,
+                    thumbnail: `https://shopping-mall-mern-website.herokuapp.com/${item}`
                 })
             })
             setImages(images)
